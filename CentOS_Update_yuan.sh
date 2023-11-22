@@ -38,7 +38,7 @@ URL="${chosen_mirror}/${VERSION}/os/x86_64/CentOS-${VERSION}.repo"
 
 # 下载.repo文件  
 echo "正在从${chosen_mirror}源下载新的 .repo 文件(Centos ${VERSION})..."  
-wget -qO- "$URL" > "Centos-${VERSION}.repo" || { echo "下载失败！"; exit 1; }
+wget -qO- "$URL" > "Centos-${VERSION}.repo" || #{ echo "下载失败！"; exit 1; }
   
 # 清理yum缓存  
 echo "正在清理 yum 缓存..."  
