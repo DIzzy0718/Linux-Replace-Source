@@ -1,4 +1,4 @@
-# Linux-更新CentOS7源
+# Linux-更新CentOS源
 
 克隆项目到linux上
 git clone https://github.com/DIzzy/Linux-Replace-Source
